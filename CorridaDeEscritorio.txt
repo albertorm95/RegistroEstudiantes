@@ -1,0 +1,205 @@
+Ingrese el tamaño del grupo: 2
+
+
+Ingrese id: 159
+Ingrese nombre: alberto
+Ingrese apeliido paterno: rojas
+Ingrese apeliido materno: mendez
+Ingrese dia de nacimiento: 23
+Ingrese mes de nacimiento: 10
+Ingrese año de nacimiento 4 digitos: 1995
+Ingrese calificacion 1 de la materia Administracion: 4
+Ingrese calificacion 2 de la materia Administracion: 5
+Ingrese calificacion 3 de la materia Administracion: 8
+Ingrese calificacion 4 de la materia Administracion: 9
+Ingrese calificacion 1 de la materia Diseño: 7
+Ingrese calificacion 2 de la materia Diseño: 8
+Ingrese calificacion 3 de la materia Diseño: 9
+Ingrese calificacion 4 de la materia Diseño: 8
+Ingrese calificacion 1 de la materia Dinamica: 9
+Ingrese calificacion 2 de la materia Dinamica: 9
+Ingrese calificacion 3 de la materia Dinamica: 9
+Ingrese calificacion 4 de la materia Dinamica: 9
+Ingrese calificacion 1 de la materia Estructura: 9
+Ingrese calificacion 2 de la materia Estructura: 9
+Ingrese calificacion 3 de la materia Estructura: 9
+Ingrese calificacion 4 de la materia Estructura: 6
+Ingrese calificacion 1 de la materia Ingles: 5
+Ingrese calificacion 2 de la materia Ingles: 8
+Ingrese calificacion 3 de la materia Ingles: 8
+Ingrese calificacion 4 de la materia Ingles: 9
+Ingrese calificacion 1 de la materia Metodos: 6
+Ingrese calificacion 2 de la materia Metodos: 5
+Ingrese calificacion 3 de la materia Metodos: 5
+Ingrese calificacion 4 de la materia Metodos: 3
+Ingrese calificacion 1 de la materia Practicas: 2
+Ingrese calificacion 2 de la materia Practicas: 1
+Ingrese calificacion 3 de la materia Practicas: 4
+Ingrese calificacion 4 de la materia Practicas: 5
+Ingrese calificacion 1 de la materia Redes: 7
+Ingrese calificacion 2 de la materia Redes: 8
+Ingrese calificacion 3 de la materia Redes: 9
+Ingrese calificacion 4 de la materia Redes: 5
+
+
+ID: 159
+Nombre: Alberto
+Apellido Paterno: Rojas
+Apellido Materno: Mendez
+Fecha de Nacimiento: 23/10/1995
+Promedio de Administracion: 6
+Promedio de Diseño: 8
+Promedio de Dinamica: 9
+Promedio de Estructura: 8
+Promedio de Ingles: 7
+Promedio de Metodos: 4
+Promedio de Practicas: 3
+Promedio de Redes: 7
+
+
+Ingrese id: 753
+Ingrese nombre: abiu
+Ingrese apeliido paterno: ramirez
+Ingrese apeliido materno: roldan
+Ingrese dia de nacimiento: 7
+Ingrese mes de nacimiento: 5
+Ingrese año de nacimiento 4 digitos: 1995
+Ingrese calificacion 1 de la materia Administracion: 7
+Ingrese calificacion 2 de la materia Administracion: 8
+Ingrese calificacion 3 de la materia Administracion: 5
+Ingrese calificacion 4 de la materia Administracion: 7
+Ingrese calificacion 1 de la materia Diseño: 8
+Ingrese calificacion 2 de la materia Diseño: 79
+Ingrese calificacion 3 de la materia Diseño: 87
+Ingrese calificacion 4 de la materia Diseño: 7
+Ingrese calificacion 1 de la materia Dinamica: 8
+Ingrese calificacion 2 de la materia Dinamica: 9
+Ingrese calificacion 3 de la materia Dinamica: 8
+Ingrese calificacion 4 de la materia Dinamica: 7
+Ingrese calificacion 1 de la materia Estructura: 8
+Ingrese calificacion 2 de la materia Estructura: 9
+Ingrese calificacion 3 de la materia Estructura: 8
+Ingrese calificacion 4 de la materia Estructura: 9
+Ingrese calificacion 1 de la materia Ingles: 8
+Ingrese calificacion 2 de la materia Ingles: 9
+Ingrese calificacion 3 de la materia Ingles: 7
+Ingrese calificacion 4 de la materia Ingles: 8
+Ingrese calificacion 1 de la materia Metodos: 76
+Ingrese calificacion 2 de la materia Metodos: 6
+Ingrese calificacion 3 de la materia Metodos: 6
+Ingrese calificacion 4 de la materia Metodos: 9
+Ingrese calificacion 1 de la materia Practicas: 8
+Ingrese calificacion 2 de la materia Practicas: 9
+Ingrese calificacion 3 de la materia Practicas: 8
+Ingrese calificacion 4 de la materia Practicas: 6
+Ingrese calificacion 1 de la materia Redes: 8
+Ingrese calificacion 2 de la materia Redes: 7
+Ingrese calificacion 3 de la materia Redes: 8
+Ingrese calificacion 4 de la materia Redes: 8
+
+
+ID: 753
+Nombre: Abiu
+Apellido Paterno: Ramirez
+Apellido Materno: Roldan
+Fecha de Nacimiento: 07/05/1995
+Promedio de Administracion: 6
+Promedio de Diseño: 45
+Promedio de Dinamica: 8
+Promedio de Estructura: 8
+Promedio de Ingles: 8
+Promedio de Metodos: 24
+Promedio de Practicas: 7
+Promedio de Redes: 7
+
+
+BUSQUEDA
+1.- ID
+2.- Nombre
+3.- Fecha
+
+Seleccione su metodo de busqueda: 1
+
+BUSQUEDA POR ID
+Ingrese ID: 753
+
+
+Encontrado!
+ID: 753
+Nombre: Abiu
+Apellido Paterno: Ramirez
+Apellido Materno: Roldan
+Fecha de Nacimiento: 07/05/1995
+Promedio de Administracion: 6
+Promedio de Diseño: 45
+Promedio de Dinamica: 8
+Promedio de Estructura: 8
+Promedio de Ingles: 8
+Promedio de Metodos: 24
+Promedio de Practicas: 7
+Promedio de Redes: 7
+
+
+¿Desea seguir buscando? (s/n)s
+
+
+BUSQUEDA
+1.- ID
+2.- Nombre
+3.- Fecha
+
+Seleccione su metodo de busqueda: 2
+
+BUSQUEDA POR NOMBRE
+Ingrese Nombre: alberto
+
+
+Encontrado!
+ID: 159
+Nombre: Alberto
+Apellido Paterno: Rojas
+Apellido Materno: Mendez
+Fecha de Nacimiento: 23/10/1995
+Promedio de Administracion: 6
+Promedio de Diseño: 45
+Promedio de Dinamica: 8
+Promedio de Estructura: 8
+Promedio de Ingles: 8
+Promedio de Metodos: 24
+Promedio de Practicas: 7
+Promedio de Redes: 7
+
+
+¿Desea seguir buscando? (s/n)s
+
+
+BUSQUEDA
+1.- ID
+2.- Nombre
+3.- Fecha
+
+Seleccione su metodo de busqueda: 3
+
+BUSQUEDA POR NACIMIENTO
+Ingrese Dia: 23
+Ingrese Mes: 10
+Ingrese Año 4 digitos: 1995
+
+
+Encontrado!
+ID: 159
+Nombre: Alberto
+Apellido Paterno: Rojas
+Apellido Materno: Mendez
+Fecha de Nacimiento: 23/10/1995
+Promedio de Administracion: 6
+Promedio de Diseño: 45
+Promedio de Dinamica: 8
+Promedio de Estructura: 8
+Promedio de Ingles: 8
+Promedio de Metodos: 24
+Promedio de Practicas: 7
+Promedio de Redes: 7
+
+
+¿Desea seguir buscando? (s/n)n
