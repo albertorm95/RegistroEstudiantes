@@ -5,6 +5,8 @@ import os
 materias=['Dinamica','Estructura','Administracion','Ingles',\
           'Diseño','Redes','Metodos','Practicas']
 
+grupo=[0 for i in range(40)]
+
 class nacimiento(record):
     dia=1
     mes=1
@@ -34,22 +36,36 @@ def impresion(alumno):
             alumno.calificaciones[i][4]=promedio
     for i in range(8):
         print 'Promedio de '+materias[i]+': '+str(alumno.calificaciones[i][4])
-    raw_input('')
     return
 
+n=int(raw_input("Ingrese el tamaño del grupo: "))
 
-primo=alumno(a_id=int(raw_input('Ingrese id: ')),\
+for h in range(n):
+    grupo[h]=alumno(a_id=int(raw_input('Ingrese id: ')),\
+                    a_nom=raw_input('Ingrese nombre: '),\
+                    a_ap=raw_input('Ingrese apeliido paterno: '),\
+                    a_am=raw_input('Ingrese apeliido materno: '),\
+                    fecha=nacimiento(dia=int(raw_input('Ingrese dia de nacimiento: ')),\
+                                    mes=int(raw_input('Ingrese mes de nacimiento: ')),\
+                                    anio=int(raw_input('Ingrese año de nacimiento: ')))
+                    )
+    
+    for i in range(8):
+        for j in range(4):
+            grupo[h].calificaciones[i][j]=int(raw_input('Ingrese calificacion '+str(j+1)+\
+                                                  ' de la materia '+materias[i]+': '))
+
+'''primo=alumno(a_id=int(raw_input('Ingrese id: ')),\
              a_nom=raw_input('Ingrese nombre: '),\
              a_ap=raw_input('Ingrese apeliido paterno: '),\
              a_am=raw_input('Ingrese apeliido materno: '),\
              fecha=nacimiento(dia=int(raw_input('Ingrese dia de nacimiento: ')),\
                               mes=int(raw_input('Ingrese mes de nacimiento: ')),\
-                              anio=int(raw_input('Ingrese año de nacimiento: ')))
-            )
-for i in range(8):
-    for j in range(4):
-        primo.calificaciones[i][j]=int(raw_input('Ingrese calificacion '+str(j+1)+\
-                                                  ' de la materia '+materias[i]+': '))
+                              anio=int(raw_input('Ingrese año de nacimiento: ')))'''
+            
 
-os.system('cls')        
-impresion(primo)
+
+os.system('cls')
+for k in range(n):
+    impresion(grupo[k])
+
